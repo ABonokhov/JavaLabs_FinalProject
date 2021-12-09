@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" style="-fx-background-color: F5F5DC;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <AnchorPane layoutX="1.0" layoutY="78.0" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: FFE4C4;">
+            <children>
+                <Separator layoutX="608.0" layoutY="-73.0" orientation="VERTICAL" prefHeight="71.0" prefWidth="15.0" />
+                <StackPane layoutY="248.0" prefHeight="152.0" prefWidth="700.0" style="-fx-background-color: F5F5DC;">
+                    <children>
+                        <Button fx:id="NextButton" mnemonicParsing="false" onAction="#switchToPage4" prefHeight="54.0" prefWidth="128.0" style="-fx-background-color: 00BFFF;" text="Далее">
+                            <font>
+                                <Font size="30.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </StackPane>
+                <AnchorPane layoutX="21.0" layoutY="23.0" prefHeight="36.0" prefWidth="659.0" style="-fx-background-color: F5F5DC;">
+                    <children>
+                        <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="-6.0" layoutY="2.0" prefHeight="36.0" prefWidth="667.0" text="Для чего используется оператор NEW?">
+                            <font>
+                                <Font name="Georgia" size="20.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </AnchorPane>
+                <CheckBox layoutX="21.0" layoutY="94.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="310.0" text="Для объявления нового класса">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox layoutX="21.0" layoutY="159.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="302.0" text="Это антагониста оператора OLD">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox layoutX="344.0" layoutY="159.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="319.0" text="Для создания экземпляра класса">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox layoutX="344.0" layoutY="94.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="319.0" text="Для создания новой переменной">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </CheckBox>
+                <ImageView fitHeight="80.0" fitWidth="91.0" layoutX="20.0" layoutY="260.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="file:/D:/JavaLabs/TestApp/src/sample/assets/cat.png" />
+                    </image>
+                </ImageView>
+            </children>
+        </AnchorPane>
+        <Label layoutX="120.0" layoutY="14.0" prefHeight="54.0" prefWidth="461.0" style="-fx-background-color: F0F8FF;" text="Тесты для студентов по языку Java" textAlignment="JUSTIFY" textFill="#833d3d">
+            <font>
+                <Font name="System Bold Italic" size="24.0" />
+            </font>
+        </Label>
+        <Separator layoutX="98.0" layoutY="5.0" orientation="VERTICAL" prefHeight="71.0" prefWidth="3.0" />
+        <Separator layoutX="101.0" layoutY="75.0" prefHeight="2.0" prefWidth="514.0" />
+        <Separator layoutX="101.0" layoutY="3.0" prefHeight="3.0" prefWidth="514.0" />
+        <ImageView fitHeight="82.0" fitWidth="80.0" layoutX="8.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/java_image.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

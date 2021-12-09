@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/javafx-fxml-11-win.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/javafx-graphics-11-win.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/javafx-controls-11-win.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/javafx-base-11-win.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/mysql-connector-java-8.0.27.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
